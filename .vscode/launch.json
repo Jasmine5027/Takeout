@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SkyApplication",
+            "request": "launch",
+            "mainClass": "com.sky.SkyApplication",
+            "projectName": "sky-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SkyApplication<sky-server (2)>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sky.SkyApplication",
+            "projectName": "sky-server (2)",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
